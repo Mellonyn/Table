@@ -1,0 +1,77 @@
+@import 'varibalbes';
+*{
+    // margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100vw;
+    height: 100vh;
+}
+.tableblock{
+      margin-top: 100px;
+      margin-left: 100px;
+}
+
+.tabletext{
+    width: 52%;
+    display: inline-block;
+    margin-left: 30%;
+    margin-bottom: 10px;
+    
+}
+.tableinfo{
+    width: 12%;
+    display: inline-block;
+    margin-left: 30%;
+    margin-bottom: 10px;
+}
+.tablelist{
+    display: inline-block;
+    margin-left: 31%;
+    margin-bottom: 10px;
+}
+.themeimg{
+    width: 55%;
+    background-color: rgb(20, 199, 199);
+    margin-left: 30%;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    height: 260px;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+.forImg{
+    border: 1px solid rgb(0, 0, 0);
+    width: 300px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    
+}
+#TwoTowers{
+    display: flex;
+    justify-content: space-evenly;
+}
+p{
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+.tabletext1{
+    @include text;
+}
+.tabletext2{
+    @include text;
+    border-bottom: none;
+}
+.bordER{
+    border: 1px solid rgb(126, 126, 126);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+   
+}
