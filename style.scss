@@ -7,10 +7,14 @@
 body,html{
     width: 100vw;
     height: 100vh;
+    background-color: rgb(134, 133, 133);
 }
 .tableblock{
       margin-top: 100px;
       margin-left: 100px;
+      background-color: rgb(255, 255, 255);
+      
+      
 }
 
 .tabletext{
@@ -63,15 +67,12 @@ p{
 }
 .tabletext1{
     @include text;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+    text-align: center;
 }
 .tabletext2{
     @include text;
     border-bottom: none;
-}
-.bordER{
-    border: 1px solid rgb(126, 126, 126);
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 65%;
-    margin-left: 25%;
+    text-align: center;
 }
